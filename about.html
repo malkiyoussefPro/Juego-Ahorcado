@@ -9,22 +9,28 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="ahorcado.html">Juegos</a></li>
-                <li><a href="about.html">About</a></li>
-              </ul>
+                <a href="index.html">Home</a>
+                <a href="ahorcado.html">Juegos</a>
+                <a href="registrarse.html">Registrarse</a>
+                <a href="about.html">About</a> 
         </nav>
     </header>
 
-    <h1>Conctar Con Nosotros </h1>
-    <form action="" method="">
-        <label for="">Nombre </label>
-        <input type="text">
-        <label for=""> Contacto </label>
-        <input type="email" name="" id="">
-        <input type="button" value="submit">
-    </form>
+    
+    <div class="contenidor">
+        <form action="" method="post" class="form" id="form"  style="width: 300px; height: 280px;">
+            <h3>Conctar Con Nosotros </h3>
+            <div class="form-label">
+                <label for="nombre_contacto">Nombre </label>
+                <input type="text" id="nombre_contacto">
+            </div>
+            <div class="form-label">
+                <label for="email_contacto"> Email </label>
+                <input type="email" name="" id="email_contacto">
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
 
     <footer>
         <div class="foot">
